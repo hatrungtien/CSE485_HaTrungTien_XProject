@@ -2,9 +2,9 @@
 class Database {
     // Specify your own database credentials
     private $host = 'localhost';
-    private $db_name = 'facebookclone';
-    private $username = 'root';
-    private $password = 'abc';
+    private $db_name = 'XProject';
+    private $username = '';
+    private $password = 'your_password';
     public $conn;
 
     // Get the database connection
