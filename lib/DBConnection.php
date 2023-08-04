@@ -4,9 +4,9 @@
 class DBConnection
 {
     private $host = 'localhost';
-    private $db_name = 'flexbook';
-    private $username = 'root';
-    private $password = 'abc';
+    private $db_name = 'XProject';
+    private $username = '';
+    private $password = 'your_password';
     private $conn;
 
     public function connect()
