@@ -1,5 +1,5 @@
 <?php
-include "app/repositories/UserRepository.php";
+include "app/UserRepository.php";
 class UserController {
     public function index(){
         //Gọi dữ liệu ra
