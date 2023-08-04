@@ -7,7 +7,7 @@ function connectDatabase()
     $hostname = 'localhost'; // Thay localhost bằng host của MySQL nếu cần thiết
     $username = 'your_username';
     $password = 'your_password';
-    $database = 'your_database_name'; // Thay your_database_name bằng tên CSDL của bạn
+    $database = 'XProject'; // Thay your_database_name bằng tên CSDL của bạn
 
     $conn = new mysqli($hostname, $username, $password, $database);
     if ($conn->connect_error) {
