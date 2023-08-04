@@ -2,7 +2,7 @@
 // home_controller.php
 
 // Gọi các file model cần sử dụng
-require_once 'models/user_model.php';
+require_once 'models/User.php';
 require_once 'models/employee_model.php';
 
 // Hàm hiển thị danh sách nhân viên
